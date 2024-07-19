@@ -1,0 +1,30 @@
+config:
+  title: "Music and Mental Health Dashboard"
+sources:
+  music_data:
+    driver: csv
+    args:
+      urlpath: '/Users/elisabethtrujillo/Desktop/ASU_Bootcamp/Project_3/Project-3/Music_mentalhealth.csv'
+pipelines:
+  music_pipeline:
+    source: music_data
+    table: auto
+    filters:
+      - type: widget
+        field: 'Age'
+        widget_type: select
+        options:
+          - '13-17'
+          - '18-24'
+          - '25-30'
+          - '31-40'
+          - '41-50'
+          - '51-60'
+          - '61-70'
+          - '71-80'
+          - '81-90'
+          - '91-100'
+      - type: widget
+        field: 'While working'
+        widget_type: select
+      - type
