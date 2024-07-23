@@ -25,11 +25,11 @@ print(f'Overall for all ages: {music_effects_counts}')
 
 custom_colors = ['violet', 'lightblue', 'pink']
 
-# Pie chart with total results overall
-# plt.figure(figsize=(8, 6))
-# plt.pie(music_effects_counts, labels=music_effects_counts.index, autopct='%1.1f%%', startangle=140, colors=custom_colors)
-# plt.title('Music Effects Responses')
-# plt.show()
+Pie chart with total results overall
+plt.figure(figsize=(8, 6))
+plt.pie(music_effects_counts, labels=music_effects_counts.index, autopct='%1.1f%%', startangle=140, colors=custom_colors)
+plt.title('Music Effects Responses')
+plt.show()
 
 #-------------------------------------------------------------------------
 # Age column data frame
@@ -212,5 +212,4 @@ top_2_genres = fav_genre_counts.head(2)
 # Display the top 2 most common genres and their counts
 for genre, count in top_2_genres.items():
     print(f'The genre "{genre}" is among the top 2 preferred genres for the age range 56 and up with {count} occurrences.')
-    
-       
+
