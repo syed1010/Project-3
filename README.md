@@ -11,8 +11,9 @@ This project falls under the Data Visualization track and utilizes various data 
 The purpose of this project is to improve the understanding of how different genres of music may influence mental health. By identifying patterns and correlations, we hope to contribute valuable insights to the field of music therapy, ultimately aiding individuals seeking alternative or complementary treatments for mental health challenges.
 
 ## Instructions on Interactivity
-
+Interactive Visuals on visualize_data.py file.
 Explore the Data: Our visuals have the ability to view the data through various filters via dropdown functionality. One can filter a chart by the mental illness and view it’s severity levels across the age groups. One can also view overview stats through similar age group breakdowns. 
+![Screenshot 2024-07-18 at 7 51 55 PM](https://github.com/user-attachments/assets/b0aaa00b-14ee-40ea-952a-e5c6a3c3fd41)
 
 
 ## Ethical Considerations
